@@ -1,0 +1,128 @@
+/*This the CSS content*/
+
+/*browser reset*/
+html, body, h1, h2, h3, ul, li, a, p, article, aside,
+footer, header, main, nav, section{
+    padding: 0;
+    margin: 0;
+}
+
+/*elements*/
+body {
+    background-color: #575454;
+}
+
+header {
+    height: 250px;
+    background-color: #00AA00;
+}
+
+nav {
+    height: 70px;
+    background-color: #8f62a9;
+}
+
+main {
+    height: 600px;
+    background-color: lightcoral;
+}
+
+footer {
+    height: 150px;
+    background-color: gold;
+}
+
+section {
+    width: 800px;
+    height: 290px;
+}
+
+aside {
+    width: 400px;
+    float: right;
+    background-color: blue;
+    height: 600px;
+}
+
+
+/*id section*/
+#wholedocument {
+    width: 1200px;
+    margin: auto;
+}
+
+#social-media {
+    float: right;
+}
+
+#social-media ul {
+    margin-top: 70px;
+    margin-right: 15px;
+}
+
+#social-media ul li {
+    display: inline;
+}
+
+#logo {
+    float: left;
+    padding: 30px;
+    padding-left: 10px;
+}
+
+#headingname {
+    font-size: 20pt;
+    padding-top: 50px;
+    color: white;
+    margin-left: 200px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+/*class section*/
+.schoolname {
+    border-bottom: 10px solid white;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.address {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+
+h2 {
+    background-color:#FFCC99;
+    padding: 30px 35px;
+    margin:-10px-50px;
+    margin-bottom:10px;
+    text-align:center;
+    border-radius:10px 10px 0 0;
+    color:#3300CC;
+}
+
+div.container {
+    width: 400px;
+    height:260px;
+    margin:30px auto;
+    background-color:#ddab3e;
+
+}
+
+label{ 
+    color:#3366FF;
+    text-shadow:0 1px 0 #33CCFF;
+    font-size:18px;
+    font-weight: 300;
+}
+
+form table {
+    padding-left: 60px;
+}
+
+
+
+
